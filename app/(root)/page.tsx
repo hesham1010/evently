@@ -18,7 +18,7 @@ export default function Home() {
               <Link href={"#events"}>Explore Now</Link>
             </Button>
           </div>
-          <Image src="/assets/images/hero.png" alt="hero" width={1000} height={1000} className='mx-h-[70vh] object-center 2xl:max-h-[50vh]' />
+          <Image src="/assets/images/hero.png" alt="hero" width={1000} height={1000} className='mx-h-[70vh] object-center object-contain 2xl:max-h-[50vh]' />
         </div>
       </section>
       <section id='events' className='wrapper my-8 flex flex-col gap-8 md:gap-12'>
